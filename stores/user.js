@@ -14,6 +14,7 @@ export const useUserStore = defineStore("user", {
     allLinks: null,
     isMobile: false,
     updatedLinkId: 0,
+    configs: {},
     addLinkOverlay: false,
     isPreviewOverlay: false,
   }),
